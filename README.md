@@ -1,6 +1,8 @@
 # nice-adb
 Build a better adb,easy to build and easy to use  
 
+![Mou icon](doc/screen_show_version.png)
+
 ## nice-adb的由来：
 * google 提供的 adb 每次调试真机的时候，adb install xxx.apk 没有任何的进度，只有在安装完成后，才显示安装结果
 * 希望自己来编译adb，优化下上面的问题。搜索了很多地方，没有找到符合需求的公开adb工程，于是建立此工程。  
