@@ -1915,7 +1915,7 @@ int install_app(transport_type transport, char* serial, int argc, char** argv)
     char* apk_file = argv[last_apk];
     char apk_dest[PATH_MAX];
     snprintf(apk_dest, sizeof apk_dest, where, get_basename(apk_file));
-    int err = do_sync_push(apk_file, apk_dest, 0 /* no show progress */);
+    int err = do_sync_push(apk_file, apk_dest, 1 /* no show progress */);
     if (err) {
         goto cleanup_apk;
     } else {

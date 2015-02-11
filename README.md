@@ -12,11 +12,11 @@ Build a better adb,easy to build and easy to use
 ## 目前完成的一些工作：
 * 升级adb源码版本到1.0.32
 * Mac系统下编译通过 Host端的adb  (adb为PC上的连接程序这里称为Host端，手机上有个adbd服务程序)
+* adb install 的安装时体验，支持显示apk安装详细进度
 
 ## 近期还需要做的一些工作：
 * 编写automake支持Linux和Win32下的Host端的编译
 * 编写automake支持产生手机上的adbd服务程序
-* 改进adb install 的安装时体验，支持显示apk安装详细进度
 
 ## 如何编译：
 ###Mac环境下编译nice-adb
@@ -30,7 +30,7 @@ cd third-part-tools && auto_install_tools_mac.sh
 * adb version
 
 ## 编译过程中可能出现的问题
-* 
+
 
 
 
