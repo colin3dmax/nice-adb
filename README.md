@@ -1,5 +1,6 @@
 # nice-adb
 Build a better adb,easy to build and easy to use  
+
 ## nice-adb的由来：
 * google 提供的 adb 每次调试真机的时候，adb install xxx.apk 没有任何的进度，只有在安装完成后，才显示安装结果
 * 希望自己来编译adb，优化下上面的问题。搜索了很多地方，没有找到符合需求的公开adb工程，于是建立此工程。  
@@ -16,6 +17,24 @@ Build a better adb,easy to build and easy to use
 * 编写automake支持Linux和Win32下的Host端的编译
 * 编写automake支持产生手机上的adbd服务程序
 * 改进adb install 的安装时体验，支持显示apk安装详细进度
+
+## 如何编译：
+###Mac环境下编译nice-adb
+####安装准备
+cd third-part-tools && auto_install_tools_mac.sh
+####开始编译
+* ./autogen.sh 
+* ./configure
+* make install  
+####运行adb
+* adb version
+
+## 编译过程中可能出现的问题
+* 
+
+
+
+
 
 ## 欢迎加入QQ讨论群：
 * 群号：191861823
