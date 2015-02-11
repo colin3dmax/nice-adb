@@ -74,7 +74,7 @@ static char *product_file(const char *extra)
 }
 
 void version(FILE * out) {
-    fprintf(out, "Android Debug Bridge version %d.%d.%d\n",
+    fprintf(out, "Nice Android Debug Bridge version %d.%d.%d\n",
          ADB_VERSION_MAJOR, ADB_VERSION_MINOR, ADB_SERVER_VERSION);
 }
 
